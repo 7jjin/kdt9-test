@@ -2,9 +2,9 @@ const mysql = require("mysql");
 
 //mysql 연결
 const conn = mysql.createConnection({
-  host: "localhost",
-  user: "name",
-  password: "1234",
+  host: "kdt9-jo.cwirmulchddh.ap-northeast-2.rds.amazonaws.com", // aws - rds - db - 엔드포인트
+  user: "admin", // rds - 구성 - mastername
+  password: "12345678",
   database: "kdt9",
   port: 3306,
 });
