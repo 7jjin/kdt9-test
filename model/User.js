@@ -5,7 +5,7 @@ const conn = mysql.createConnection({
   host: "kdt9-jo.cwirmulchddh.ap-northeast-2.rds.amazonaws.com", // aws - rds - db - 엔드포인트
   user: "admin", // rds - 구성 - mastername
   password: "12345678",
-  database: "kdt9",
+  database: "awsrds",
   port: 3306,
 });
 conn.connect((err) => {
